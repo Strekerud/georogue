@@ -4,6 +4,7 @@ import org.newdawn.slick.AppGameContainer;
 import org.newdawn.slick.BasicGame;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
+import org.newdawn.slick.Music;
 import org.newdawn.slick.SlickException;
 
 public class Georogue extends BasicGame{
@@ -31,11 +32,15 @@ public class Georogue extends BasicGame{
 	@Override
 	public void render(GameContainer arg0, Graphics arg1) throws SlickException {
 		
+
+		
 	}
 
 	@Override
 	public void init(GameContainer arg0) throws SlickException {
+		Music openingMenuMusic = new Music("res/sound/fast.ogg");
 		
+		openingMenuMusic.loop();
 	}
 
 	@Override
