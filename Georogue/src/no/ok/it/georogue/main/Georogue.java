@@ -17,7 +17,7 @@ public class Georogue extends BasicGame{
 		try
         {
             AppGameContainer app = new AppGameContainer(new Georogue());
-            app.setDisplayMode(500, 400, false);
+            app.setDisplayMode(1200, 800, false);
             app.setShowFPS(false);
             app.setTargetFrameRate(60);
             app.start();
