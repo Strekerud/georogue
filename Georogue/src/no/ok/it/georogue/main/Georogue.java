@@ -17,6 +17,8 @@ public class Georogue extends BasicGame{
         {
             AppGameContainer app = new AppGameContainer(new Georogue());
             app.setDisplayMode(500, 400, false);
+            app.setShowFPS(false);
+            app.setTargetFrameRate(60);
             app.start();
         }
         catch (SlickException e)
@@ -28,19 +30,16 @@ public class Georogue extends BasicGame{
 
 	@Override
 	public void render(GameContainer arg0, Graphics arg1) throws SlickException {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void init(GameContainer arg0) throws SlickException {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void update(GameContainer arg0, int arg1) throws SlickException {
-		// TODO Auto-generated method stub
 		
 	}
 
